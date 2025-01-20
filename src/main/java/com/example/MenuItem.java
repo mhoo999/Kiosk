@@ -21,4 +21,8 @@ public class MenuItem {
         return category;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
 }

@@ -34,8 +34,9 @@ public class Menu {
         }
     }
 
-    public void getMenu(int order) {
+    public MenuItem getMenu(int order) {
         System.out.println("Your choice: " + menuList.get(order).getMenu());
+        return menuList.get(order);
     }
 
     public void getCategory() {
