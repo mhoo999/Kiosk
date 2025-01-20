@@ -28,7 +28,8 @@ public class OrderManager {
                 switch (choice) {
                     case 1:
                         double discountAmount = discount();
-                        System.out.println("Your order is complete. The price is " + (shoppingBasket.getTotalPrice() * (1.0 - discountAmount)));
+                        double resultAmount = shoppingBasket.getTotalPrice() * (1.0 - discountAmount);
+                        System.out.println("Your order is complete. The price is " + resultAmount);
                         validInput = true;
                         break;
                     case 2:
