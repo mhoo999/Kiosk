@@ -13,6 +13,7 @@ public class MenuItem {
     final private String description;
     final private Menu.Category category;
 
+    // 메뉴 출력 양식에 따라 아이템 정보를 반환
     public String getMenu() {
         return name + " | W " + price + " | " + description;
     }

@@ -23,6 +23,7 @@ public class ShoppingBasket {
         }
     }
 
+    // 장바구니에 담긴 아이템들의 합계를 반환
     public double getTotalPrice() {
         double totalPrice = 0;
 

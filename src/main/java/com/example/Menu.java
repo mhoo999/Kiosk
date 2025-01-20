@@ -28,12 +28,14 @@ public class Menu {
         return menuList.size();
     }
 
+    // 모든 메뉴 출력
     public void getMenu() {
         for (int i = 0; i < menuList.size(); i++) {
             System.out.println((i+1) + ". " + menuList.get(i).getMenu());
         }
     }
 
+    // 특정 메뉴 반환
     public MenuItem getMenu(int order) {
         System.out.println("Your choice: " + menuList.get(order).getMenu());
         return menuList.get(order);

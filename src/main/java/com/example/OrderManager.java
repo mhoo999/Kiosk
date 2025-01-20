@@ -28,6 +28,7 @@ public class OrderManager {
                 switch (choice) {
                     case 1:
                         double discountAmount = discount();
+                        // 할인률 계산
                         double resultAmount = shoppingBasket.getTotalPrice() * (1.0 - discountAmount);
                         System.out.println("Your order is complete. The price is " + resultAmount);
                         validInput = true;
