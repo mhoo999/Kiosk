@@ -3,7 +3,7 @@ package com.example;
 import java.util.Scanner;
 
 public class OrderManager {
-    private Kiosk kiosk;
+    private final Kiosk kiosk;
 
     public OrderManager(Kiosk kiosk) {
         this.kiosk = kiosk;

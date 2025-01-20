@@ -17,10 +17,6 @@ public class MenuItem {
         return name + " | W " + price + " | " + description;
     }
 
-    public Menu.Category getCategory() {
-        return category;
-    }
-
     public double getPrice() {
         return price;
     }
